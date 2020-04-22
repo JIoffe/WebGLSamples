@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Web GL Shader Examples</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
+        <link rel="stylesheet" href="./css/style.css"/>
+        <script src="./dist/bundle.min.js"></script>
+    </head>
+    <body>
+        <!-- Meant to illustrate examples of common shaders, which may or may not be optimized -->
+        <main>
+            <div class="panel panel-vertical">
+                <div class="subpanel">
+                    <div class="toolbar">
+                        <h2>Vertex Shader</h2>
+                        <select id="shaderSelect"></select>
+                        <button id="vshader-update-btn">Update</button>
+                    </div>
+                    <div class="code-container">
+                        <textarea id="vshader-ta"></textarea>
+                    </div>
+                </div>
+                <div class="subpanel">
+                    <div class="toolbar">
+                        <h2>Fragment Shader</h2>
+                        <button id="fshader-update-btn">Update</button>
+                    </div>
+                    <div class="code-container">
+                        <textarea id="fshader-ta"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="panel">
+                <div class="toolbar">
+                    <h2>WebGL Viewport</h2>
+                    <select id="sampleSelect">
+                    </select>
+                    <button id="glViewMaximize" class="maximize">Toggle Full Screen</button>
+                </div>
+                <canvas id="c"/>
+            </div>
+        </main>
+    </body>
+</html>

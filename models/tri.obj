@@ -1,0 +1,10 @@
+# Just a simple triangle, saved as obj to simplify the pipeline
+
+v -0.5 -0.5 0.0
+v 0.0 0.5 0.0
+v 0.5 -0.5 0.0
+vt 0 1
+vt 0.5 0.0
+vt 1.0 1.0
+
+f 3/3 2/2 1/1

@@ -1,0 +1,23 @@
+{
+  "name": "webgl-shaders",
+  "version": "1.0.0",
+  "description": "Sample shaders in WebGL",
+  "main": "main.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "WebGL",
+    "Shaders"
+  ],
+  "author": "Jason Ioffe",
+  "license": "MIT",
+  "dependencies": {
+    "gl-matrix": "^3.2.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}
