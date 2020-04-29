@@ -92,7 +92,7 @@ export class Renderer{
         this.canvas.setAttribute('height', '' + h);
 
         //Rebuild the projection matrix as well
-        math_ex.buildProjectionMatrix(this.projectionMatrix, 60, w, h, NEAR_CLIP, FAR_CLIP);
+        math_ex.buildProjectionMatrix(this.projectionMatrix, FOV, w, h, NEAR_CLIP, FAR_CLIP);
 
         if(!!scene.planarReflection){
             this.renderPlanarReflection(scene, time, w, h);
