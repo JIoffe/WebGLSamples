@@ -634,21 +634,3 @@ export class Renderer{
         }
     }
 }
-
-// export const Uniforms = {
-//     matMVP: 'uModelViewProj',
-//     matProj: 'uProjection',
-//     matMV: 'uModelView',
-//     matNormal: 'uNormalMatrix',
-//     sampler: 'uSampler',
-//     cameraPos: 'uCameraPos',
-//     time: 'uTime',
-//     color: 'uColor',
-// };
-
-// export const Attributes = {
-//     Pos: 'aVertexPosition',
-//     Tex: 'aTexCoords',
-//     Norm: 'aNormal',
-//     Tangent: 'aTangent',
-// };
